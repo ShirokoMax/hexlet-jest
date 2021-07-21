@@ -31,4 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run jest
-        run: jest
+        run: NODE_OPTIONS=--experimental-vm-modules npx jest
